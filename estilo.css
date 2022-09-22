@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(143, 19, 19);
+    padding: 5px;
+}
+header h1{
+    color: rgb(0, 0, 0);
+}
+
+.title{
+    padding: 10px;
+    background-color: rgb(143, 19, 19);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+}
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.valores input{
+    margin: 10px;
+}
+
+.btn-calculo{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.btn-calculo button {
+    margin: 10px;
+}
+
+.valores {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container input{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(63, 7, 7);
+    border-radius: 10px;
+}
